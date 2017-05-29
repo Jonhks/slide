@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$(".slides").slidesjs({
+		play:{
+		active:true,
+		effect:"slide",
+		interval:5000,
+		auto:true,
+		swap:true,
+		pauseOnHover:false,
+		restartDelay:2500
+		}
+	});
+});
